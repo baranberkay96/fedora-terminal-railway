@@ -35,7 +35,7 @@ A bare `fedora` container on Railway has no way in except Railway's own CLI. Thi
 |---|---|---|
 | Terminal | Dockerfile based on `fedora:45` | nginx basic-auth proxy on port 8080 (public HTTPS domain, `/healthz`), ttyd on loopback, tmux sessions, user `fedora` with sudo, volume at `/home` |
 
-**Plan:** works on every plan, including Free (0.5 GB RAM per service). MEASURED_RAM_LINE
+**Plan:** works on every plan, including Free (0.5 GB RAM per service). Measured on Railway with a 0.5 GB memory limit: about 0.022 GB of RAM idle; a Python venv with `requests` and an `npm install -g` ran fine. The image is about 0.4 GB compressed. Large builds can need more than 0.5 GB; on Free the kernel then stops that process, not the terminal.
 
 **First login**
 

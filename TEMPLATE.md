@@ -74,12 +74,6 @@ Estimated monthly cost: idle about $0.40, typical about $4. Minimum plan: Free. 
 
 No required inputs.
 
-## Resource estimate
-
-Railway prices: RAM $10/GB-month, vCPU $20/vCPU-month, volume $0.15/GB-month.
-
-RESOURCE_TABLE
-
 ## Improvements over market templates
 
 1. A browser terminal at all: the market template only keeps a bare container alive for `railway ssh`.

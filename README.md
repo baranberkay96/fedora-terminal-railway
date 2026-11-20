@@ -1,5 +1,7 @@
 # Deploy and Host Fedora 45 Web Terminal with Railway
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fedora-45-web-terminal-browser-shell?referralCode=20H68q)
+
 A Fedora 45 shell that opens in any browser. You work as the user `fedora` with sudo, inside tmux, so sessions and long-running jobs survive closed tabs. A generated password protects the login, and your home directory sits on a persistent volume. Git, Python, Node.js 24, GCC and everyday CLI tools come preinstalled.
 
 ## About Hosting Fedora 45 Web Terminal
